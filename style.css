@@ -1,0 +1,55 @@
+body { /* Aplica a todo el body*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fad0ad;
+    color: #3D3C42;
+    background: url(food.webp) no-repeat center;
+    background-size: cover;
+   }
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgba(220, 118, 118, 0.236);
+    padding: 20px;
+    font-family: cursive;
+
+   }
+.menu-item {
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+   }
+.menu-item:hover {
+    color: #444448;
+    background-color: #c19a79a5;
+   }
+.precio {
+    float: right;
+    margin-right: 5%;
+    
+    }
+.producto {
+    float: left;
+    margin-left: 3%;
+   }
+.descripcion {
+    text-align: center;
+    margin-left: 10% ;
+    vertical-align: bottom;
+   }
+.tipo{
+    float: right;
+    margin-right: 7%;
+   }
+
+.item {
+    vertical-align: middle;
+    line-height: 2rem;
+   }
+#lista-menu {
+    margin: auto; /* con esto se logra que este centrado horizontalmente */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+    vertical-align: middle;
+   }
